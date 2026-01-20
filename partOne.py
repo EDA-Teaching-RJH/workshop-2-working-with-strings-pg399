@@ -1,8 +1,9 @@
-def main():
-    slow = input("Input ")
-    myFunction(slow)
+def myFunctions(text):
+    # Replace every space with three dots
+    results = text.replace(" ", "...")
+    print(result)
 
-def myFunction(text):
-  #Your code goes here.
+def main():
+    slow = input("Input: ")
 
 main()
